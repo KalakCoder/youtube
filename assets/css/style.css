@@ -1,0 +1,309 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* start header section */
+.main-section {
+    background-color: rgb(63, 63, 63);
+    color: rgb(7, 7, 7);
+}
+
+.menuitam {
+    float: left;
+    width: 33.333%;
+    padding: 1rem;
+}
+
+.menuitam .btn-f5 {
+    padding: 4px;
+    font-size: 19px;
+    color: #f1f1f1;
+    text-decoration: none;
+}
+
+.speker {
+    background-color: #111;
+    padding: 8px 10px;
+    border-radius: 360px;
+
+}
+
+.menuitam input {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.menuitam button {
+    padding: 10px 20px;
+    border: none;
+
+}
+
+.menu-f3 {
+    text-align: right;
+}
+
+span {
+    text-decoration: none;
+    font-size: 19px;
+    padding: 2px 8px;
+    border-radius: 360px;
+    background-color: rgb(0, 220, 194);
+}
+
+.btn-f3-f4 {
+    background-color: rgb(38, 37, 37);
+}
+
+.main-section::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width:600px) {
+    .menuitam {
+        width: 50%;
+        height: auto;
+
+    }
+    .menu-f3,.speker {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width:480px) {
+    .menuitam {
+        width: 50%;
+        height: auto;
+    }
+
+    .menuitam input {
+        width: 50%;
+    }
+
+    .menu-f3 {
+        display: none;
+    }
+   
+}
+
+/* start header section */
+
+
+/* aside section */
+.middle-section {
+    float: left;
+    width: 15%;
+    text-decoration: none;
+}
+
+.wrapper-f3 a {
+    color: white;
+    text-decoration: none;
+}
+
+.wrapper-f3 a:hover {
+    color: rgb(9, 231, 9);
+}
+
+.wrapper-f3 {
+    color: white;
+    font-size: 19px;
+    border-right: 8px solid rgb(107, 107, 105);
+    background-color: #111;
+
+}
+
+.right-f5 {
+    width: 85%;
+    padding: 1rem;
+    background-color: #1e1d1d;
+}
+
+.right-f5 a {
+    padding: 8px 20px;
+    text-decoration: none;
+    border-radius: 360px;
+    color: white;
+}
+
+.fa {
+    color: rgb(245, 242, 240);
+}
+
+.btn-f3 {
+    padding: 1rem;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.btn-f3-btn {
+    font-size: 19px;
+
+}
+
+.right-f5 a:hover {
+    background-color: #beb8b8;
+    color: #111;
+}
+
+.main-section {
+    position: sticky;
+    top: 0;
+}
+
+
+.middle-section .icon {
+    display: none;
+    padding: 1rem;
+}
+
+.next-main-section::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width:768px) {
+    .middle-section {
+        width: 50%;
+        height: auto;
+    }
+
+    .wrapper-f3 {
+        display: none;
+    }
+
+    .wrapper-f3 .active {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width:480px) {
+    .middle-section {
+        width: 100%;
+        height: auto;
+    }
+
+}
+
+.ifram-section {
+    float: left;
+    width: 20%;
+}
+
+.ifram-section iframe {
+    width: 100%;
+    /* height: 200px; */
+    padding: 5px;
+}
+
+.ifram-f3::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+.content {
+    background-color: rgb(88, 84, 84);
+    padding: 3px;
+    color: rgb(237, 234, 229);
+    margin: 2px;
+
+}
+.middle-section .fa{
+    padding: 1rem;
+}
+@media screen and (max-width:992px) {
+    .ifram-section {
+        width: 33.33%;
+        height: auto;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+    .ifram-section {
+        width: 50%;
+        height: auto;
+    }
+
+    .middle-section {
+        position: relative;
+    }
+
+    .middle-section .icon {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .middle-section .middle-f3 {
+        display: none;
+    }
+
+    .middle-section a:not(.middle-f3):first-child,
+    .middle-section a:not(.middle-f3):last-child {
+        color: rgb(245, 238, 238);
+    }
+
+}
+
+@media screen and (max-width:600px) {
+    .ifram-section {
+        width: 100%;
+        height: auto;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .para-middle.responsive {
+        position: relative;
+    }
+
+    .para-middle.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .para-middle.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+
+    .middle-section .form-f5 {
+        background-color: rgb(202, 191, 191);
+        max-width: 70px;
+        color: black;
+    }
+
+}
+
+
+/* aside section */
+.menuitam .fa {
+    color: rgb(248, 245, 245);
+}
+
+
+.fa-wpexplorer {
+    padding: 1rem;
+    /* color: #111; */
+}
+
+p {
+    padding: 30px;
+}

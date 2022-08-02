@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bad+Script&family=Cormorant+Garamond:wght@300&family=Cormorant:wght@300&family=Edu+TAS+Beginner&family=Lobster&family=Quintessential&family=Tapestry&family=The+Nautigal&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/firstdesign.css">
+    <title>firstdesign</title>
+</head>
+<body>
+    <!-- start header section -->
+    <header>
+        <div class="header-f4"><img src="./uploades/8.jpg" width="100" height="100" alt=""></div>
+        <h2>My Website</h2>
+        <p class="para-f3">A responsive website created by me.</p>
+    </header>
+    <!-- end header section -->
+
+    <!-- start navagation section -->
+    <div class="topnav" id="myTopnav">
+        <a href="#home" class="active">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Gallery</a>
+        <a href="#contact">Contact</a>
+        <div class="dropdown">
+          <button class="dropbtn">Services
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+        </div> 
+        <a href="#about" class="banner">About</a>
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+      </div>
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        </script>
+    <!-- end navagation section -->
+
+    <!-- start aside section -->
+    <div class="middle-section">
+    <div class="middle-wrapper">
+        <h2 class="mero">About Me</h2>
+        <p>Photo Me</p>
+        <div class="first-imag">
+            <img src="./uploades/kalak.jpg" width="100" height="100" alt="">
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam fuga culpa placeat blanditiis iusto beatae.</p>
+        <h2 class="mero">More Text</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div class="first-imag main-3">
+            <img src="./uploades/10.jpg" width="100" height="100" alt="">
+        </div>
+        <div class="first-imag main-3">
+            <img src="./uploades/4.jpg" width="100" height="100"alt="">
+        </div>
+        <div class="first-imag main-3">
+            <img src="./uploades/5.jpg" width="100" height="100"alt="">
+        </div>
+    </div>
+    <div class="middle-wrapper-f3">
+        <h2 class="mero">TITLE HEADING</h2>
+        <p>Title description, july 20, 2022</p>
+        <div class="last-section text-f3">
+            <img src="./uploades/7.jpg" width="100" height="100"alt="">
+        </div>
+        <h2 class="mero">Some text..</h2>
+        <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+        <h2>TITLE HEADING</h2>
+        <p>Title description, july 20, 2022</p>
+        <div class="last-section">
+            <img src="./uploades/4.jpg" width="100" height="100" alt="">
+        </div>
+        <h2>Some text</h2>
+        <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    </div>
+    </div>
+    <!-- end aside section -->
+
+
+    <!-- footer section -->
+    <div class="footer-section">
+        <div class="icon-f3">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+             <a href="#"><i class="fa fa-youtube"></i></a> 
+             <a href="#"><i class="fa fa-thumbs-up"></i></a>
+        </div>
+        <a href="#" class="last-item">Home</a> | <a href="#" class="last-item">AboutUS</a> | <a href="#" class="last-item">Gallery</a> | <a href="#" class="last-item">contact</a>
+        <p class="footer-para">Copyright 2022 Designed by kalak khadayat</p>
+     </div>
+    <!-- footer section -->
+</body>
+</html>
